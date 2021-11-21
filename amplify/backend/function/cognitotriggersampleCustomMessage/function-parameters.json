@@ -1,0 +1,17 @@
+{
+  "trigger": true,
+  "modules": [
+    "custom"
+  ],
+  "parentResource": "cognitotriggersample",
+  "functionName": "cognitotriggersampleCustomMessage",
+  "resourceName": "cognitotriggersampleCustomMessage",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "/Users/gorbinphilip/.nvm/versions/node/v14.17.4/lib/node_modules/@aws-amplify/cli/node_modules/@aws-amplify/amplify-category-auth/provider-utils/awscloudformation/triggers/CustomMessage",
+  "triggerTemplate": "CustomMessage.json.ejs",
+  "triggerEventPath": "CustomMessage.event.json",
+  "roleName": "cognitotriggersampleCustomMessage",
+  "skipEdit": true,
+  "enableCors": false
+}
