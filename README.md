@@ -10,16 +10,16 @@ Steps to reproduce on version `7.4.4`:
 npm install -g @aws-amplify/cli
 # init project with default setting
 amplify init
-# configure auth with cognito at least one trigger -- equivalent to commit a3ed91fb86479f3e26871ba95af05e0372fe9dab
+# configure auth with cognito at least one trigger
 amplify add auth
-# deploy
+# deploy -- equivalent to commit a3ed91fb86479f3e26871ba95af05e0372fe9dab
 amplify push
 
 # all good at this point, triggers are attached.
 
 # update cognito password policy
 amplify auth update
-# deploy
+# deploy -- equivalent to commit 12bcb24389ac4cb5f36854e61fa0338163c6c0e8
 amplify push
 
 # password policy gets updated and existing triggers are now detached from cognito :(
